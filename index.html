@@ -76,7 +76,7 @@ fetch(`https://restcountries.com/v3.1/name/${country}?fullText=true`)
 
                  <div class="col text-center bg-white pt-2 ">
                   <img class="img-fluid"  style="max-width:300px; max-height:180px; object-fit:cover;" src="${i.coatOfArms.svg}" alt="">
-                  <p class="text-dark fs-6 fw-medium  ">Region : <span class="text-primary"> ${i.region}</span>
+                  <p class="text-dark fs-6 fw-medium pt-2 ">Region : <span class="text-primary"> ${i.region}</span>
                     <p class="text-dark fs-6 fw-medium "> Population : <span class="text-primary"> ${i.population}</span></p> 
                    <p class="text-dark fs-6 fw-medium  "> Currency : <span class="text-primary">  ${(i.currencies[keys]).name} &nbsp &nbsp ${(i.currencies[keys]).symbol}</span> </p>
                     <p class="text-dark fs-6 fw-medium   ">Languages Spoken : <span class="text-primary ">${str}</span></p></p>
